@@ -10,6 +10,7 @@
      
 ```C++
 
+
 #include <stdio.h>  // Including the standard input-output header file for functions like printf.
 
 /**
