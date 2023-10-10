@@ -8,7 +8,7 @@
     ## Fecha de revisión:   09/10/2023    
     ##   
      
-```ASM
+```ARM
         .arch armv6
         .eabi_attribute 28, 1
         .eabi_attribute 20, 1
