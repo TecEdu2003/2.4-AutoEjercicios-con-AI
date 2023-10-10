@@ -28,12 +28,12 @@
         .ascii  "The value of pi is: %f\012\000"
         .text
         .align  2
-        .global _Z7printPiv
+        .global _printPi
         .arch armv6
         .syntax unified
         .arm
         .fpu vfp
-        .type   _Z7printPiv, %function
+        .type   _printPi, %function
 _printPi:
         .fnstart
 .LFB0:
@@ -62,7 +62,7 @@ _printPi:
         .word   1074340347
         .word   .LC0
         .fnend
-        .size   _Z7printPiv, .-_Z7printPiv
+        .size   _printPi, .-_printPi
         .align  2
         .global main
         .syntax unified
