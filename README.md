@@ -114,7 +114,7 @@ main:
 .LFB1:
 
 @ Llama a la función _printPi
-bl _Z7printPiv
+bl _printPi
 
 @ Retorna 0
 mov r3, #0
